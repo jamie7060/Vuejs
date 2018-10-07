@@ -1,6 +1,6 @@
 <template>
-  <div class="border container">
-    <div class="text-left container text">{{ contenttitle }}</div>
+  <div class="card text-white bg-primary">
+    <div class="text-left card-header">{{ contenttitle }}</div>
     <div class="text-left container">{{ contentbody }}</div>
     <div class="text-right container">{{ contentdate }}</div>
     <div class="text-left container">댓글</div>

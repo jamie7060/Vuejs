@@ -4,7 +4,7 @@
       <post
       v-for="(content,i) in contents"
       :key="i"
-      :contentttitle="content.title"
+      :contenttitle="content.title"
       :contentbody="content.body"
       :contentdate="content.created_at"
       :contentcomments="content.comments"
