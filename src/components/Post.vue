@@ -1,11 +1,11 @@
 <template>
   <div class="border container">
-    <div class="textLeft container text">{{ contenttitle }}</div>
-    <div class="textLeft container">{{ contentbody }}</div>
-    <div class="textRight container">{{ contentdate }}</div>
-    <div class="textLeft container">댓글</div>
+    <div class="text-left container text">{{ contenttitle }}</div>
+    <div class="text-left container">{{ contentbody }}</div>
+    <div class="text-right container">{{ contentdate }}</div>
+    <div class="text-left container">댓글</div>
     <div v-for='(comment, j) in contentcomments' :key="j">
-      <div class="textLeft container">{{ j+1 }}) {{ contentcomments.body }}</div>
+      <div class="text-left container">{{ j+1 }}) {{ comment.body }}</div>
     </div>
   </div>
 </template>

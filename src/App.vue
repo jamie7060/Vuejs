@@ -1,14 +1,14 @@
 <template>
   <div id="app" class="container py-5">
     <div class="row">
-      <content
+      <post
       v-for="(content,i) in contents"
       :key="i"
       :contentttitle="content.title"
       :contentbody="content.body"
       :contentdate="content.created_at"
       :contentcomments="content.comments"
-      ></content>
+      ></post>
     </div>
   </div>
 </template>
